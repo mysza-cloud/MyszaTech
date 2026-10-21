@@ -1,0 +1,39 @@
+:root[data-theme=jarvis]{--bg:#050e1c;--panel:#0c233d;--text:#ecf6ff;--muted:#a7bfd6;--mint:#57caff;--line:#274967;--head:#061222f5;--card-top:#102f4e;--card-bottom:#08182c;--accent2:#a4dcff;--pale:#c9eaff;--pale2:#79cbff;--ink:#0b2d46;--form:#f0f8ff;--field:#93b9d3;--icon-bg:#57caff18;--icon-border:#57caff55;--process:#09192c;--glow:#168fff24;--photo-hue:25deg}
+:root[data-theme] header{background:var(--head)}
+:root[data-theme] .card{background:linear-gradient(140deg,var(--card-top),var(--card-bottom))}
+:root[data-theme] .card:hover{border-color:var(--mint)}
+:root[data-theme] .card:after{background:var(--mint)}
+:root[data-theme] .card:nth-child(2):after{background:var(--accent2)}
+:root[data-theme] .card:nth-child(2) .num,:root[data-theme] .card:nth-child(2) small{color:var(--accent2)}
+:root[data-theme] .service-icon,:root[data-theme] .card:nth-child(2) .service-icon,:root[data-theme] .card:nth-child(5) .service-icon{color:var(--mint);border-color:var(--icon-border);background:linear-gradient(135deg,var(--icon-bg),transparent)}
+:root[data-theme] .service-number{color:var(--muted)}
+:root[data-theme] .button{color:var(--ink);box-shadow:0 4px 25px var(--glow)}
+:root[data-theme] .button:hover{background:var(--pale)}
+:root[data-theme] nav .small{border-color:var(--line)}
+:root[data-theme] .about{background:var(--pale);color:var(--ink)}
+:root[data-theme] .about p{color:var(--ink)}
+:root[data-theme] .process-section{background:var(--process)}
+:root[data-theme] .step{border-color:var(--line)}
+:root[data-theme] .contact{background:linear-gradient(120deg,var(--pale),var(--pale2));color:var(--ink)}
+:root[data-theme] .contact p,:root[data-theme] .contact .direct-email{color:var(--ink)}
+:root[data-theme] .contact-options .button{background:var(--ink);color:var(--form)}
+:root[data-theme] .contact-options .button:hover{background:var(--panel)}
+:root[data-theme] .direct-email a:hover{color:var(--ink)}
+:root[data-theme] .hero-visual img{border-color:var(--line);filter:hue-rotate(var(--photo-hue));box-shadow:0 25px 70px var(--glow)}
+:root[data-theme] .hero-visual figcaption{color:var(--muted)}
+:root[data-theme] .project-preview,:root[data-theme] .project-preview.phone,:root[data-theme] .project-preview.sports{background:radial-gradient(ellipse,var(--card-top),var(--card-bottom));border-color:var(--line)}
+:root[data-theme] .project-preview>span{background:var(--head);border-color:var(--line);color:var(--text)}
+:root[data-theme] .project-thumbs button{background:var(--panel);border-color:var(--line);color:var(--mint)}
+:root[data-theme] .project-thumbs button:hover{background:var(--card-top)}
+:root[data-theme] #enquiry-dialog{background:var(--form);color:var(--ink);border-color:var(--field)}
+:root[data-theme] .enquiry-form{background:var(--form);color:var(--ink)}
+:root[data-theme] .enquiry-form label span,:root[data-theme] .dialog-heading>div>span,:root[data-theme] #enquiry-dialog .form-help,:root[data-theme] #enquiry-dialog .form-provider,:root[data-theme] .send-status{color:var(--ink)}
+:root[data-theme] .enquiry-form input,:root[data-theme] .enquiry-form select,:root[data-theme] .enquiry-form textarea{color:var(--ink);border-color:var(--field)}
+:root[data-theme] .close-enquiry{color:var(--ink);border-color:var(--field)}
+:root[data-theme] .close-enquiry:hover{background:var(--pale)}
+:root[data-theme] #enquiry-dialog .button,:root[data-theme] #enquiry-dialog button:disabled,:root[data-theme] #enquiry-dialog button:disabled:hover{background:var(--ink);color:var(--form)}
+:root[data-theme] #enquiry-dialog :focus-visible{outline-color:var(--ink)}
+:root[data-theme] .send-success{background:var(--pale);border-color:var(--field)}
+:root[data-theme] #project-dialog{background:var(--bg);border-color:var(--line)}
+:root[data-theme] .gallery-heading p{color:var(--text)}
+:root[data-theme] .gallery-heading button{border-color:var(--line);color:var(--text)}
